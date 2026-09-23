@@ -1,2 +1,2 @@
-FROM nginx:this-tag-does-not-exist
+FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
